@@ -13,11 +13,16 @@ public class Main {
            i++;
          }
          count+=1;
+        
        }
-       
+        if(one.charAt(i)=='1'){i++;}
+         System.out.println(one);
+          System.out.println(count);
+         
+          
      
      }
-      System.out.println(count);
+    
     }
     
 }
